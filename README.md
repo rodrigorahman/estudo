@@ -5,9 +5,8 @@ Estudar alternativa para Groove
 ## Estudar Forma de adicionar o número em cima do icone Android ##
 
 ***Exemplo***
-'''
-It works in samsung touchwiz launcher
 
+'''
 public static void setBadge(Context context, int count) {
     String launcherClassName = getLauncherClassName(context);
     if (launcherClassName == null) {
