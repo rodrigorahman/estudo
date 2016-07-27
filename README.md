@@ -2,11 +2,8 @@
 Estudar alternativa para Groove 
 
 
-## Estudar Forma de adicionar o número em cima do icone Android ##
+## Estudar Forma de adicionar o número em cima do icone Android
 
-***Exemplo***
-
-'''
 public static void setBadge(Context context, int count) {
     String launcherClassName = getLauncherClassName(context);
     if (launcherClassName == null) {
@@ -36,4 +33,3 @@ public static String getLauncherClassName(Context context) {
     }
     return null;
 }
-'''
