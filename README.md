@@ -36,3 +36,7 @@ public static String getLauncherClassName(Context context) {
     return null;
 }
 '''
+
+# Estudar android dataBinding
+
+http://www.vogella.com/tutorials/AndroidDatabinding/article.html#introduction-to-data-binding-in-android
